@@ -111,8 +111,8 @@ if (ua.includes("Locket")) {
         telephoto: true,
         srgb: true,
         lanczos: true,
-        quality_mbps: 0.6,
-        qualityMbps: 0.6
+        quality_mbps: 0.5,
+        qualityMbps: 0.5
     };
 
     var cameraRollConfig = {
@@ -129,8 +129,8 @@ if (ua.includes("Locket")) {
         max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
         max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
         max_size_bytes: 104857600,
-        quality_mbps: 0.6,
-        qualityMbps: 0.6,
+        quality_mbps: 0.5,
+        qualityMbps: 0.5,
         flash_button: true
     };
 
@@ -184,16 +184,16 @@ if (ua.includes("Locket")) {
         goldMaxDuration: durationStr,
         max_file_size: "104857600",
         max_upload_bytes: "104857600",
-        video_quality_mbps: "0.",
+        video_quality_mbps: "0.5",
         video_sound_enabled: "true",
         microphone_enabled: "true",
         camera_microphone_enabled: "true",
         audio_session_deactivation_enabled: "true",
         zoom_enabled: "true",
         upload_main: "false",
-        upload_main_image_quality: "0.6",
+        upload_main_image_quality: "0.5",
         upload_main_image_size: "1440",
-        upload_thumbnail_image_quality: "0.6",
+        upload_thumbnail_image_quality: "0.5",
         upload_thumbnail_image_size: "1020"
     });
 
@@ -302,7 +302,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            url: "https://i.ibb.co/B2rVqQrt/df0f419f-49a2-4eb9-836c-9ae3fa1fef79.png",
+            url: "https://i.ibb.co/RpPV5JFn/ad6f76856f44444db625ca17992e1121-jpeg-tplv-0es2k971ck-downsize-wm-1-5-marc-b-3-RGww-Mj-Ey-Tk-Ex-NHcx.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
@@ -615,12 +615,12 @@ if (ua.includes("Locket")) {
                 section: "🎨🎨🎨🎨🎨🎨",
                 items: [
                     {
-                        overlay_id: "caption:nca",
+                        overlay_id: "caption:khanhdang",
                         source: "remote",
                         caption: {
                             background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
                             max_lines: 1,
-                            text: "nguyencongan",
+                            text: "khanhdang",
                             text_color: "#183153",
                             type: "static_content"
                         }
