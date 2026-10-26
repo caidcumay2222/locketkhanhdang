@@ -8,8 +8,8 @@ const mapping = {
   'Locket': ['Gold']
 };
 
-// ========= NGÀY KÍCH HOẠT GOLD (25/05/8888) ========= //
-var MY_PURCHASE_DATE = "8888-05-25T10:10:14Z"; // Ngày bắt đầu có Gold
+// ========= NGÀY KÍCH HOẠT GOLD (12/02/2009) ========= //
+var MY_PURCHASE_DATE = "2009-02-12T10:10:14Z"; // Ngày bắt đầu có Gold
 var MY_EXPIRES_DATE  = "9999-05-25T10:10:14Z"; // Ngày hết hạn Gold
 
 // ========= Xử lý dữ liệu ========= //
